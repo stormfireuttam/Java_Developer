@@ -1,0 +1,50 @@
+		MATH
+     	     -----------
+
+-> need to import java.lang
+-> all methods are static, so no need to 
+-> Common methods : 
+1) ceil			6) max(a, b)
+2) floor		7) min(a, b)
+3) rint			8) sqrt
+4) round		9) random
+5) abs
+
+-------------------------------------------------------------
+		
+			DATE
+	    	    ------------
+
+-> Java provides the Date class in java.util package, this class encapsulates the current date and time.
+-> There are two constructors for Date class:
+	Date()
+	Date(long millisec)
+-> Common methods in Java Date class.
+	boolean after(Date date)
+	boolean before(Date date)
+	int compareTo(Date date)
+	boolean equals(Object date)
+	long getTime()
+	void setTime(long time) 
+
+--------------------------------------------------------------
+			
+			STRING
+		    --------------
+
+-> String is a sequence of characters
+-> String is immutable(You cannot change anything after the object is created other examples are Long, Integer)
+
+------------------------------------------------------------
+
+			Character
+		   --------------------
+
+-> Create a Character object: Character ch = new Character('a');
+-> Character class methods
+1) isLetter			5) toUpperCase
+2) isDigit			6) toLowerCase
+3) isWhitespace			7) toString
+4) isUpperCase			8) isLowerCase
+
+
