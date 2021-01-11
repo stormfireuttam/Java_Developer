@@ -10,3 +10,5 @@
 **Model :** Database operation such as fetch data or update data, etc <br/>
 **View :** End user GUI through which user can interact with system i.e. HTML, CSS <br/>
 **Controller :** Contain Business logic and provide lint between model and view.
+
+<img src="MVC_example.jpg"/>
