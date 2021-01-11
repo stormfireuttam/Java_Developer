@@ -19,4 +19,4 @@ Benefits include
 - Lifecycle automation: Individual components are easier to fit into continuous delivery pipelines and complex deployment scenarios not possible with monoliths.
 - Relationship to the business: Microservice architectures are split along business domain boundaries, increasing independence and understanding across the organization.
 
-<img src="Microservice.png" />
+<img src="Microservice.jpg" />
