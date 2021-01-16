@@ -37,5 +37,7 @@ You should see something like “{"city":"San Jose","name":"Stephen"}
 
 # Difference between Simple Controller and a Rest Controller
 
-spring’s annotation-based mvc framework simplifies the process of creating restful web services. the key difference between a traditional spring mvc controller and the restful web service controller is the way the http response body is created. while the traditional mvc controller relies on the view technology, the restful web service controller simply returns the object and the object data is written directly to the http response as json/xml.
+@RestController is a specialized version of controller, which includes @Controller and @ResponseBody. In this example, we are going to use it to update our existing Controller class we created previously. 
+
+Spring’s annotation-based mvc framework simplifies the process of creating restful web services. the key difference between a traditional spring mvc controller and the restful web service controller is the way the http response body is created. while the traditional mvc controller relies on the view technology, the restful web service controller simply returns the object and the object data is written directly to the http response as json/xml.
 
